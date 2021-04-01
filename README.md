@@ -12,10 +12,10 @@ First, we provide speaker age labels and (an alternative) annotation of speaker 
 On modeling side, the lowest mean absolute error (MAE) in age regression, 9.443 years, is obtained using i-vector features with ridge regression. This indicates challenge in age estimation from in-the-wild style speech data.
 
 ## Authors
-- Khaled Hechmi
-- Trung Ngo Trong
-- Ville Hautamäki
-- Tomi Kinnunen
+- [Khaled Hechmi](https://www.linkedin.com/in/hechmikhaled/)
+- [Trung Ngo Trong](https://scholar.google.com/citations?user=EZEq2nAAAAAJ&hl=it&oi=ao)
+- [Ville Hautamäki](https://scholar.google.com/citations?user=esQWyTcAAAAJ&hl=it)
+- [Tomi Kinnunen](https://scholar.google.com/citations?user=e3SPjpoAAAAJ&hl=it)
 
 ## Repo structure
 This repository is structured as follows:
@@ -26,7 +26,7 @@ This repository is structured as follows:
 ## Aknowledgments
 This work has been partially sponsored by [Academy of Finland](https://www.aka.fi/en) (proj. no. 309629). 
 
-Considering the nature of the work, we would like to cite also in this README the original VoxCeleb 1 and VoxCeleb 2 papers:
+Considering the nature of the work, we would like to cite also in this README the original [VoxCeleb 1 and VoxCeleb 2](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/) papers:
 ```
 [1] A. Nagrani*, J. S. Chung*, A. Zisserman, VoxCeleb: a large-scale speaker identification dataset, 
 INTERSPEECH, 2017
