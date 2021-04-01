@@ -1,7 +1,7 @@
 In this folder a number of scripts and notebooks are reported. Here it follows a general overview:
 ### Disclaimer
 From a software engineering it is clear that there is large room of improvements, as various functions appear as duplicated due to the fact that . The main goal is to enable the reader to understand how things were done and allow as much as possible the reproducibility of all the steps.
-If some imports are still broken please open an issue and
+If some imports are broken or you don't understand some steps please open an issue and let me know.
 ## 00 Conda environment
 Conda was used for managing the various libraries needed by scripts and notebooks. In particular:
 - [environment_enrichment.yml]()
@@ -40,4 +40,4 @@ trial_data = UtteranceSelector().choose_all('voxceleb1')
 trial_data.select_random_speakers(100)
 ```
 ## 03 Model training and evaluation
-The following noteboks show how reported metrics were achieved:
+Notebooks starting with "02" and "03" have been used for training and evaluation all the reported models. In  the src folder you can find the methods that effectively build the predictive models according to the specified params + some methods that were tried during the experimentation phase, done using K-Fold CV on the train set, but weren't used in the final train due to their lower results.
