@@ -1,6 +1,6 @@
 # VoxCeleb enrichment for Age and Gender recognition
 
-This repository contains all the material related to the paper "VoxCeleb enrichment for Age and Gender recognition" submitted for publication at Interspeech 2021.
+This repository contains all the material related to the paper "VoxCeleb enrichment for Age and Gender recognition" submitted for publication at Interspeech 2021. For those mainly interested in downloading data you can download the [**ENRICHED DATASET**](dataset/final_dataframe_extended.csv csv file.
 
 ## Abstract
 
@@ -19,7 +19,7 @@ On modeling side, the lowest mean absolute error (MAE) in age regression, 9.443 
 
 ## Repo structure
 This repository is structured as follows:
-- [dataset](dataset/): here the **[ENRICHED DATASET]**(dataset/final_dataframe_extended.csv) can be found and downloaded, as well as support files detailing which records have been used for training and testing
+- [dataset](dataset/): here the [**ENRICHED DATASET**](dataset/final_dataframe_extended.csv) can be found and downloaded, as well as support files detailing which records have been used for training and testing
 - [best_models](best_models/): the best models reported in the paper, Linear Regression with i-Vectors (Age regression) and Logistic regression with i-Vectors (Gender recognition), are made available so that other users can try them in a variety of scenarios (assuming that
 - [notebooks](notebooks/): Python scripts and Jupyter notebooks used throughout the various steps
 
