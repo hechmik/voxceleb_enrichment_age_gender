@@ -1,7 +1,8 @@
 # VoxCeleb enrichment for Age and Gender recognition
 
 This repository contains all the material related to the paper "VoxCeleb enrichment for Age and Gender recognition" submitted for publication at [ASRU 2021](https://asru2021.org/). For those mainly interested in downloading data you can download the [**ENRICHED DATASET**](dataset/final_dataframe_extended.csv) csv file.
-
+## Arxiv Link
+https://arxiv.org/abs/2109.13510
 ## Abstract
 
 VoxCeleb datasets are widely used in speaker recognition studies. Our work serves two purposes.
