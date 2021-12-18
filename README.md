@@ -36,6 +36,12 @@ INTERSPEECH, 2017
 INTERSPEECH, 2018
 ```
 
+## Similar works
+This work was carried out in 2020 when the first author was affiliated with University of Eastern Finland. The authors came later across an independent but [closely related work](https://ieeexplore.ieee.org/document/9414272) that addresses age labeling of VoxCeleb. The key difference between our work and theirs is that we assigned age labels based on the videos semantic and people identity, while they trained a facial age estimation model for the labeling task, taking as input the visual frames of the original YouTube videos. For readers convenience here it follows the paper's full reference, together with their github repo.
+```
+N. Tawara, A. Ogawa, Y. Kitagishi and H. Kamiyama, "Age-VOX-Celeb: Multi-Modal Corpus for Facial and Speech Estimation," ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2021, pp. 6963-6967, doi: 10.1109/ICASSP39728.2021.9414272.
+```
+**GITHUB Repository**: https://github.com/nttcslab-sp/agevoxceleb
 ## Contact information
 
 For any comment, clarification or suggestion please feel free to open an issue here in GitHub and/or send me an email at **hechmi DOT khaled1995 AT gmail DOT com** 
